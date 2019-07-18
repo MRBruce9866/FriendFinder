@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
     <title>Friend Finder</title>
 </head>
 
@@ -41,7 +42,8 @@
                 <label for="quest1">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest1">
+                <select class="form-control question" id="quest1">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -55,7 +57,8 @@
                 <label for="quest2">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest2">
+                <select class="form-control question" id="quest2">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -69,7 +72,8 @@
                 <label for="quest3">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest3">
+                <select class="form-control question" id="quest3">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -83,7 +87,8 @@
                 <label for="quest4">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest4">
+                <select class="form-control question" id="quest4">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -97,7 +102,8 @@
                 <label for="quest5">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest5">
+                <select class="form-control question" id="quest5">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -111,7 +117,8 @@
                 <label for="quest6">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest6">
+                <select class="form-control question" id="quest6">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -125,7 +132,8 @@
                 <label for="quest7">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest7">
+                <select class="form-control question" id="quest7">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -139,7 +147,8 @@
                 <label for="quest8">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest8">
+                <select class="form-control question" id="quest8">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -153,7 +162,8 @@
                 <label for="quest9">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest9">
+                <select class="form-control question" id="quest9">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -167,7 +177,8 @@
                 <label for="quest10">
                     <h5>Question goes here?</h5>
                 </label>
-                <select class="form-control" id="quest10">
+                <select class="form-control question" id="quest10">
+                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -177,24 +188,65 @@
 
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
         </form>
 
         <div class="footer my-3">
             <a href="">API Friends List</a> | <a href="">GitHub Repo</a>
-          </div>
+        </div>
     </div>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+
+
+    <script>
+        $('#submitBtn').on('click', function (event) {
+            event.preventDefault();
+
+            var name = $("#surveyName").val();
+            var photo = $("#surveyImg").val();
+
+            if (name === "") {
+                alert('You need to enter a name!')
+                return;
+            } else if (photo === "") {
+                alert('You need to enter a photo!')
+                return;
+            }
+
+            var scores = [];
+            $('.question option:checked').each(function (index, html) {
+                if (html.value !== "") {
+                    scores.push(html.value);
+                } else {
+                    return;
+                }
+            });
+
+
+            if (scores.length < $('.question').length) {
+                alert(`You didn't answer all of the questions!`);
+                return;
+            }
+
+            var user = {
+                name,
+                photo,
+                scores
+            }
+
+            $.post('/api/friends', user, function (response) {
+                console.log(response);
+            });
+        });
     </script>
 </body>
 

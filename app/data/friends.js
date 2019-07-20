@@ -28,7 +28,7 @@ User.prototype.getBestMatch = function (friends){
 var friends = [
     {
         "name":"Test1",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.mapsofworld.com/world-political-map-new.jpg",
         "scores":
         [
             1,
@@ -46,7 +46,7 @@ var friends = [
     }, 
     {
         "name":"Test2",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://images-na.ssl-images-amazon.com/images/I/818wGZK2pGL._SY741_.jpg",
         "scores":
         [
             3,
@@ -63,7 +63,7 @@ var friends = [
     },
     {
         "name":"Test3",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://images-na.ssl-images-amazon.com/images/I/818wGZK2pGL._SY741_.jpg",
         "scores":
         [
             5,

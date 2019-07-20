@@ -192,7 +192,35 @@
         </form>
 
         <div class="footer my-3">
-            <a href="">API Friends List</a> | <a href="">GitHub Repo</a>
+            <a href="/api/friends">API Friends List</a> | <a href="https://github.com/MRBruce9866/FriendFinder">GitHub
+                Repo</a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bfModal" tabindex="-1" role="dialog" aria-labelledby="bfModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class='container'>
+                        <div class='row text-center'>
+                            <div class="col">
+                                <h3 class="modal-title" id="bfModalTitle"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='container'>
+                    <div class='row text-center'>
+                        <div class="col">
+                            <div id='bfModalBody' class="modal-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -244,7 +272,13 @@
             }
 
             $.post('/api/friends', user, function (response) {
-                console.log(response);
+                var modalTitle = $('#bfModalTitle').empty();
+                var modalBody = $('#bfModalBody').empty();
+
+                modalTitle.text(response.name);
+                modalBody.append($("<img>").attr('src', response.photo).attr('width', '400px'));
+
+                $("#bfModal").modal('show');
             });
         });
     </script>

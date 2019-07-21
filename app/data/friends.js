@@ -27,41 +27,24 @@ User.prototype.getBestMatch = function (friends){
 
 var friends = [
     {
-        "name":"Test1",
-        "photo":"https://www.mapsofworld.com/world-political-map-new.jpg",
+        "name":"Master Chief",
+        "photo":"https://images-na.ssl-images-amazon.com/images/I/818wGZK2pGL._SY741_.jpg",
         "scores":
         [
             1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            4,
+            3,
+            2,
             1,
             
         ]
     }, 
-
-    {
-        "name":"Test2",
-        "photo":"https://images-na.ssl-images-amazon.com/images/I/818wGZK2pGL._SY741_.jpg",
-        "scores":
-        [
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-        ]
-    },    
+   
 ]
 
 module.exports = {

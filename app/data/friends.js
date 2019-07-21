@@ -44,25 +44,9 @@ var friends = [
             
         ]
     }, 
+
     {
         "name":"Test2",
-        "photo":"https://images-na.ssl-images-amazon.com/images/I/818wGZK2pGL._SY741_.jpg",
-        "scores":
-        [
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3,
-        ]
-    },
-    {
-        "name":"Test3",
         "photo":"https://images-na.ssl-images-amazon.com/images/I/818wGZK2pGL._SY741_.jpg",
         "scores":
         [

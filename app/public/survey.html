@@ -15,183 +15,201 @@
 
 <body>
 
-    <div class="container my-2">
-        <h2 class="mb-5">Survey Questions</h2>
+    <div class="container border rounded p-2">
+        <div class="surveyTitle py-3 text-center">
+                <h1 class="mb-5">Survey Questions</h1>
+                
+                <h5>Fill out this form to find your best bud!</h5>
+        </div>
+        
+
 
         <form action="">
-            <h4 class="my-3"><strong>About You</strong></h4>
-            <div class="form-group">
-                <label for="surveyName">
-                    <h5>Name: (Required)</h5>
-                </label>
-                <input type="text" class="form-control" id="surveyName">
-
+            <div class="qGroup p-3 my-3 border border-light rounded">
+   
+                    <div class="form-group">
+                        <label for="surveyName">
+                            <h5>Name: (Required)</h5>
+                        </label>
+                        <input type="text" class="form-control" id="surveyName">
+        
+                    </div>
+                    <div class="form-group">
+                        <label for="surveyImg">
+                            <h5>Profile Picture: (Required)</h5>
+                        </label>
+                        <input type="text" class="form-control" id="surveyImg">
+                    </div>
             </div>
-            <div class="form-group">
-                <label for="surveyImg">
-                    <h5>Profile Picture: (Required)</h5>
-                </label>
-                <input type="text" class="form-control" id="surveyImg">
+            
 
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest1">
+                        <h5>1) I enjoy taking surveys.</h5>
+                    </label>
+                    <select class="form-control question" id="quest1">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest2">
+                        <h5>2) I prefer reading to watching tv.</h5>
+                    </label>
+                    <select class="form-control question" id="quest2">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest3">
+                        <h5>3) I enjoy playing video games.</h5>
+                    </label>
+                    <select class="form-control question" id="quest3">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest4">
+                        <h5>4) I enjoy the outdoors.</h5>
+                    </label>
+                    <select class="form-control question" id="quest4">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest5">
+                        <h5>5) Writing survey questions is hard.</h5>
+                    </label>
+                    <select class="form-control question" id="quest5">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest6">
+                        <h5>6) I enjoy having company over.</h5>
+                    </label>
+                    <select class="form-control question" id="quest6">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest7">
+                        <h5>7) This survey is boring.</h5>
+                    </label>
+                    <select class="form-control question" id="quest7">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest8">
+                        <h5>8) I prefer golf rather than bowling.</h5>
+                    </label>
+                    <select class="form-control question" id="quest8">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest9">
+                        <h5>9) I like rap music.</h5>
+                    </label>
+                    <select class="form-control question" id="quest9">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class='qGroup p-3 my-3 border border-light rounded'>
+                <div class="form-group">
+                    <label for="quest10">
+                        <h5>10) I'm glad this survey is finished.</h5>
+                    </label>
+                    <select class="form-control question" id="quest10">
+                        <!-- <option value="" selected disabled hidden>Choose an option</option> -->
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+
+                </div>
             </div>
 
-            <hr class="my-4">
-
-            <h4 class="my-3"><strong>Question 1</strong></h4>
-            <div class="form-group">
-                <label for="quest1">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest1">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
+            <div class="text-center">
+                    <button id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
             </div>
-            <h4 class="my-3"><strong>Question 2</strong></h4>
-            <div class="form-group">
-                <label for="quest2">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest2">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 3</strong></h4>
-            <div class="form-group">
-                <label for="quest3">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest3">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 4</strong></h4>
-            <div class="form-group">
-                <label for="quest4">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest4">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 5</strong></h4>
-            <div class="form-group">
-                <label for="quest5">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest5">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 6</strong></h4>
-            <div class="form-group">
-                <label for="quest6">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest6">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 7</strong></h4>
-            <div class="form-group">
-                <label for="quest7">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest7">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 8</strong></h4>
-            <div class="form-group">
-                <label for="quest8">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest8">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 9</strong></h4>
-            <div class="form-group">
-                <label for="quest9">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest9">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-            <h4 class="my-3"><strong>Question 10</strong></h4>
-            <div class="form-group">
-                <label for="quest10">
-                    <h5>Question goes here?</h5>
-                </label>
-                <select class="form-control question" id="quest10">
-                    <!-- <option value="" selected disabled hidden>Choose an option</option> -->
-                    <option value="1">1 (Strongly Disagree)</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5 (Strongly Agree)</option>
-                </select>
-
-            </div>
-
-            <button id='submitBtn' type="submit" class="btn btn-primary">Submit</button>
+            
         </form>
 
-        <div class="footer my-3">
+        <div class="footer my-1 text-center">
             <a href="/api/friends">API Friends List</a> | <a href="https://github.com/MRBruce9866/FriendFinder">GitHub
                 Repo</a>
         </div>
@@ -203,7 +221,7 @@
                 <div class="modal-header">
                     <div class='container'>
                         <div class='row text-center'>
-                            <div class="col">
+                            <div class="'col-6'">
                                 <h3 class="modal-title" id="bfModalTitle"></h3>
                             </div>
                         </div>
@@ -211,7 +229,7 @@
                 </div>
                 <div class='container'>
                     <div class='row text-center'>
-                        <div class="col">
+                        <div class="'col-6'">
                             <div id='bfModalBody' class="modal-body">
                             </div>
                         </div>
